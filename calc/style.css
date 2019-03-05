@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    font-size: 1.4em;
+    font-family: tahoma;
+}
+
+.header {
+    background: red;
+    height: 60px;
+}
+
+.content {
+    background: green;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.footer {
+    background: blue;
+    height: 60px;
+}
